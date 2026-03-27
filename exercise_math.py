@@ -13,15 +13,17 @@ def math():
     """
     a = 57
     b = 7
-    suma= a + b
+    suma=a+b
     diferencia= a - b
     producto= a * b
+    promedio = (a+b)/2
     cociente= a // b
-    resto= suma - cociente
-    real= a / b
+    resto= a%b
+    division= a/b
     print(suma)
     print(diferencia)
     print(producto)
+    print(promedio)
     print(cociente)
     print(resto)
-    print(real)
+    print(division)
